@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4843F85C2B638E0F00658D2C /* GnuRentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843F85B2B638E0F00658D2C /* GnuRentalApp.swift */; };
+		4843F85E2B638E0F00658D2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843F85D2B638E0F00658D2C /* ContentView.swift */; };
+		4843F8602B638E1000658D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4843F85F2B638E1000658D2C /* Assets.xcassets */; };
+		4843F8632B638E1000658D2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4843F8622B638E1000658D2C /* Preview Assets.xcassets */; };
+		4843F86D2B638E1000658D2C /* GnuRentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843F86C2B638E1000658D2C /* GnuRentalTests.swift */; };
+		4843F8772B638E1000658D2C /* GnuRentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843F8762B638E1000658D2C /* GnuRentalUITests.swift */; };
+		4843F8792B638E1000658D2C /* GnuRentalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843F8782B638E1000658D2C /* GnuRentalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4843F8692B638E1000658D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4843F8502B638E0F00658D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4843F8572B638E0F00658D2C;
+			remoteInfo = GnuRental;
+		};
+		4843F8732B638E1000658D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4843F8502B638E0F00658D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4843F8572B638E0F00658D2C;
+			remoteInfo = GnuRental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4843F8582B638E0F00658D2C /* GnuRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GnuRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843F85B2B638E0F00658D2C /* GnuRentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuRentalApp.swift; sourceTree = "<group>"; };
+		4843F85D2B638E0F00658D2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4843F85F2B638E1000658D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4843F8622B638E1000658D2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4843F8682B638E1000658D2C /* GnuRentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnuRentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843F86C2B638E1000658D2C /* GnuRentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuRentalTests.swift; sourceTree = "<group>"; };
+		4843F8722B638E1000658D2C /* GnuRentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnuRentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843F8762B638E1000658D2C /* GnuRentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuRentalUITests.swift; sourceTree = "<group>"; };
+		4843F8782B638E1000658D2C /* GnuRentalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuRentalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4843F8552B638E0F00658D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F8652B638E1000658D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F86F2B638E1000658D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4843F84F2B638E0F00658D2C = {
+			isa = PBXGroup;
+			children = (
+				4843F85A2B638E0F00658D2C /* GnuRental */,
+				4843F86B2B638E1000658D2C /* GnuRentalTests */,
+				4843F8752B638E1000658D2C /* GnuRentalUITests */,
+				4843F8592B638E0F00658D2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4843F8592B638E0F00658D2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4843F8582B638E0F00658D2C /* GnuRental.app */,
+				4843F8682B638E1000658D2C /* GnuRentalTests.xctest */,
+				4843F8722B638E1000658D2C /* GnuRentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4843F85A2B638E0F00658D2C /* GnuRental */ = {
+			isa = PBXGroup;
+			children = (
+				4843F85B2B638E0F00658D2C /* GnuRentalApp.swift */,
+				4843F85D2B638E0F00658D2C /* ContentView.swift */,
+				4843F85F2B638E1000658D2C /* Assets.xcassets */,
+				4843F8612B638E1000658D2C /* Preview Content */,
+			);
+			path = GnuRental;
+			sourceTree = "<group>";
+		};
+		4843F8612B638E1000658D2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4843F8622B638E1000658D2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4843F86B2B638E1000658D2C /* GnuRentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4843F86C2B638E1000658D2C /* GnuRentalTests.swift */,
+			);
+			path = GnuRentalTests;
+			sourceTree = "<group>";
+		};
+		4843F8752B638E1000658D2C /* GnuRentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4843F8762B638E1000658D2C /* GnuRentalUITests.swift */,
+				4843F8782B638E1000658D2C /* GnuRentalUITestsLaunchTests.swift */,
+			);
+			path = GnuRentalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4843F8572B638E0F00658D2C /* GnuRental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843F87C2B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRental" */;
+			buildPhases = (
+				4843F8542B638E0F00658D2C /* Sources */,
+				4843F8552B638E0F00658D2C /* Frameworks */,
+				4843F8562B638E0F00658D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GnuRental;
+			productName = GnuRental;
+			productReference = 4843F8582B638E0F00658D2C /* GnuRental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4843F8672B638E1000658D2C /* GnuRentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843F87F2B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRentalTests" */;
+			buildPhases = (
+				4843F8642B638E1000658D2C /* Sources */,
+				4843F8652B638E1000658D2C /* Frameworks */,
+				4843F8662B638E1000658D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4843F86A2B638E1000658D2C /* PBXTargetDependency */,
+			);
+			name = GnuRentalTests;
+			productName = GnuRentalTests;
+			productReference = 4843F8682B638E1000658D2C /* GnuRentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4843F8712B638E1000658D2C /* GnuRentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843F8822B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRentalUITests" */;
+			buildPhases = (
+				4843F86E2B638E1000658D2C /* Sources */,
+				4843F86F2B638E1000658D2C /* Frameworks */,
+				4843F8702B638E1000658D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4843F8742B638E1000658D2C /* PBXTargetDependency */,
+			);
+			name = GnuRentalUITests;
+			productName = GnuRentalUITests;
+			productReference = 4843F8722B638E1000658D2C /* GnuRentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4843F8502B638E0F00658D2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4843F8572B638E0F00658D2C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4843F8672B638E1000658D2C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4843F8572B638E0F00658D2C;
+					};
+					4843F8712B638E1000658D2C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4843F8572B638E0F00658D2C;
+					};
+				};
+			};
+			buildConfigurationList = 4843F8532B638E0F00658D2C /* Build configuration list for PBXProject "GnuRental" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4843F84F2B638E0F00658D2C;
+			productRefGroup = 4843F8592B638E0F00658D2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4843F8572B638E0F00658D2C /* GnuRental */,
+				4843F8672B638E1000658D2C /* GnuRentalTests */,
+				4843F8712B638E1000658D2C /* GnuRentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4843F8562B638E0F00658D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843F8632B638E1000658D2C /* Preview Assets.xcassets in Resources */,
+				4843F8602B638E1000658D2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F8662B638E1000658D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F8702B638E1000658D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4843F8542B638E0F00658D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843F85E2B638E0F00658D2C /* ContentView.swift in Sources */,
+				4843F85C2B638E0F00658D2C /* GnuRentalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F8642B638E1000658D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843F86D2B638E1000658D2C /* GnuRentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843F86E2B638E1000658D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843F8772B638E1000658D2C /* GnuRentalUITests.swift in Sources */,
+				4843F8792B638E1000658D2C /* GnuRentalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4843F86A2B638E1000658D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4843F8572B638E0F00658D2C /* GnuRental */;
+			targetProxy = 4843F8692B638E1000658D2C /* PBXContainerItemProxy */;
+		};
+		4843F8742B638E1000658D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4843F8572B638E0F00658D2C /* GnuRental */;
+			targetProxy = 4843F8732B638E1000658D2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4843F87A2B638E1000658D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4843F87B2B638E1000658D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4843F87D2B638E1000658D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GnuRental/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4843F87E2B638E1000658D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GnuRental/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4843F8802B638E1000658D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnuRental.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GnuRental";
+			};
+			name = Debug;
+		};
+		4843F8812B638E1000658D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnuRental.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GnuRental";
+			};
+			name = Release;
+		};
+		4843F8832B638E1000658D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnuRental;
+			};
+			name = Debug;
+		};
+		4843F8842B638E1000658D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjy.GnuRentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnuRental;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4843F8532B638E0F00658D2C /* Build configuration list for PBXProject "GnuRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843F87A2B638E1000658D2C /* Debug */,
+				4843F87B2B638E1000658D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4843F87C2B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843F87D2B638E1000658D2C /* Debug */,
+				4843F87E2B638E1000658D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4843F87F2B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843F8802B638E1000658D2C /* Debug */,
+				4843F8812B638E1000658D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4843F8822B638E1000658D2C /* Build configuration list for PBXNativeTarget "GnuRentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843F8832B638E1000658D2C /* Debug */,
+				4843F8842B638E1000658D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4843F8502B638E0F00658D2C /* Project object */;
+}
