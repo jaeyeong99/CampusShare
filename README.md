@@ -57,7 +57,7 @@
 
 ### 6. 시연 영상
 
-[캠퍼스쉐어 시연영상.mp4](attachment:0f40a49b-3744-4528-9ecb-d8a8b4e3b581:캠퍼스쉐어_시연영상.mp4)
+https://github.com/user-attachments/assets/7a61a81f-3fcb-482e-86cf-122038d3df7e
 
 ---
 
