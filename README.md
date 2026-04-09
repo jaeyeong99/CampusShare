@@ -37,7 +37,7 @@
 
 ### 4. 기술 스택
 
-![스크린샷 2025-06-08 오후 9.01.13.png](attachment:4e70bdc2-c8e5-447c-b2cb-22b88cf726da:스크린샷_2025-06-08_오후_9.01.13.png)
+<img width="812" height="415" alt="Image" src="https://github.com/user-attachments/assets/0c5ca1fc-eac2-4bd9-af40-571871d49d2d" />
 
 ---
 
