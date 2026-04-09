@@ -1,4 +1,4 @@
-![image.png](attachment:031a9115-271a-4d85-a47a-c8add970d636:image.png)
+<img width="1005" height="480" alt="Image" src="https://github.com/user-attachments/assets/31072704-7d5e-4867-8448-6a372bf9b2aa" />
 
 
 ### 1. 프로젝트 개요
